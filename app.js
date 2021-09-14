@@ -1,4 +1,5 @@
-import http from 'http';
+// import http from 'http';
+const http = require('http')
 
 const server = http.createServer((req, res) => {
   if(req.url === '/'){
